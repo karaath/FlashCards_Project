@@ -1,5 +1,6 @@
 {
   "name": "flashcard",
+  "homepage": "https://karaath.github.io/FlashCards_Project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
