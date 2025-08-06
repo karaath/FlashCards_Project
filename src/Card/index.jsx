@@ -1,3 +1,5 @@
-export function Card(){
-    return <div>o que é REACT?</div>
+export function Card(props){
+    return <div>
+        {props.texto}
+    </div>
 }
