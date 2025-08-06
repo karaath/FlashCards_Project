@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Card } from './Card'
+import { Navbar } from './Navbar'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
   
   return <>
     <Card text = {answerIsVisible ? currentQuestion.answer : currentQuestion.text} />
+    <Navbar setCurrentIndex = {setCurrentIndex} currentIndex= {currentIndex} />
   </>
      
 }
