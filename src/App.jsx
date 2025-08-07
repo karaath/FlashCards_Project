@@ -24,9 +24,17 @@ function App() {
   const[answerIsVisible, setAnswerIsVisible] = useState(false)
   const currentQuestion = questions[currentIndex]
   
+  const lastIndex = questions.length -1
+
   return <>
     <Card text = {answerIsVisible ? currentQuestion.answer : currentQuestion.text} />
-    <Navbar setCurrentIndex = {setCurrentIndex} currentIndex= {currentIndex} />
+    <Navbar 
+    setCurrentIndex = {setCurrentIndex} 
+    currentIndex= {currentIndex} 
+    lastIndex={lastIndex}
+    answerIsVisible = {answerIsVisible}
+    setAnswerIsVisible = {setAnswerIsVisible}
+    />
   </>
      
 }
