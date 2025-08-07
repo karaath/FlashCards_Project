@@ -1,3 +1,7 @@
+// github do professor: https://github.com/MateusGesualdo/flashcards
+
+
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
