@@ -1,5 +1,5 @@
 export function Card(props){
     return <div>
-        {props.texto}
+        {props.text}
     </div>
 }
